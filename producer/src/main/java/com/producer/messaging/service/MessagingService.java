@@ -13,9 +13,6 @@ import java.util.UUID;
 @Component
 public class MessagingService {
 
-
-
-
     @Autowired
     RabbitTemplate rabbitTemplate;
 

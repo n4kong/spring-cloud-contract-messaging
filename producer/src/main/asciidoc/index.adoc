@@ -1,0 +1,19 @@
+= Demo Message Contract
+Message specification generated from contract in Spring Cloud Contract
+:toc: left
+
+== Schema message output for trigger by method
+
+.request
+include::{snippets}/validate_shouldSendMessageSuccess()/request-body.adoc[]
+
+
+== Schema message output for trigger by message
+
+.request
+include::{snippets}/validate_shouldReceiveMessageAndSendSuccess()/request-body.adoc[]
+
+
+== Remark
+
+This Demo is intended to make it easy for you to understand how to use Spring Cloud Contract to generate Rest Docs.
